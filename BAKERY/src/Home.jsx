@@ -10,14 +10,12 @@ const Home =()=>{
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, blanditiis corporis! Est repellat minima earum asperiores quod quam, placeat qui.</p>
            <a href="#" className="btn">get started</a>
         </div>
-
-
-      </section> 
+ </section> 
       <section className="about" >
         <h1 className="heading"><span>about</span>us</h1>
         <div className="row">
             <div className="image">
-                <img src="image/dubai.jpeg" alt=""/>
+                <img src="/dubai.jpeg" alt=""/>
             </div>
             <div className="content">
                 <h3>good things come to those <span>who bake</span> for others</h3>
@@ -38,7 +36,7 @@ const Home =()=>{
         <div className="box-container">
             <div class="box">
                 <div class="image">
-                    <img src="image/icecream.jpg" alt=""/>
+                    <img src="/icecream.jpg" alt=""/>
                 </div>
                 <div className="content">
                     <h3>ice cream</h3>
@@ -56,7 +54,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/mousecake.webp" alt=""/>
+                    <img src="/mousecake.webp" alt=""/>
                 </div>
                 <div className="content">
                     <h3>mousecake</h3>
@@ -74,7 +72,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/cake2.webp" alt=""/>
+                    <img src="/cake2.webp" alt=""/>
                 </div>
                 <div className="content">
                     <h3>cake</h3>
@@ -92,7 +90,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/chocolate.jpg" alt=""/>
+                    <img src="/chocolate.jpg" alt=""/>
                 </div>
                 <div className="content">
                     <h3>dark chocolates</h3>
@@ -110,7 +108,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/puff.webp" alt=""/>
+                    <img src="/puff.webp" alt=""/>
                 </div>
                 <div className="content">
                     <h3>puffs</h3>
@@ -128,7 +126,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/shakes.webp" alt=""/>
+                    <img src="/shakes.webp" alt=""/>
                 </div>
                 <div className="content">
                     <h3>shake</h3>
@@ -146,7 +144,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/fruitstuff.jpeg" alt=""/>
+                    <img src="/fruitstuff.jpeg" alt=""/>
                 </div>
                 <div className="content">
                     <h3>fruitstuff</h3>
@@ -164,7 +162,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/pastry.webp" alt=""/>
+                    <img src="/pastry.webp" alt=""/>
                 </div>
                 <div className="content">
                     <h3>pastry</h3>
@@ -182,7 +180,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/cocktel2.jpeg" alt=""/>
+                    <img src="/cocktel2.jpeg" alt=""/>
                 </div>
                 <div className="content">
                     <h3>drinks</h3>
@@ -200,7 +198,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/chocolates.jpg" alt=""/>
+                    <img src="/chocolates.jpg" alt=""/>
                 </div>
                 <div className="content">
                     <h3>chocolates</h3>
@@ -218,7 +216,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/cake4.webp" alt=""/>
+                    <img src="/cake4.webp" alt=""/>
                 </div>
                 <div className="content">
                     <h3>bd cakes</h3>
@@ -236,7 +234,7 @@ const Home =()=>{
             </div>
             <div className="box">
                 <div className="image">
-                    <img src="image/coffee.jpeg" alt=""/>
+                    <img src="/coffee.jpeg" alt=""/>
                 </div>
                 <div className="content">
                     <h3>coffe</h3>
