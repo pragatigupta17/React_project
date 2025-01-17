@@ -4,15 +4,15 @@ const Contact =()=>{
          <section className="team" >
                 <h1 className="heading">our <span>team</span></h1>
 
-                <div className="box-container">
+                <div className="box-containr">
 
-                    <div className="box">
+                    <div className="bo">
 
                         <div className="image">
                             <img src="/baker2.jpg"/>
                         </div>
 
-                        <div className="content">
+                        <div className="conten">
                             <h3>erica lacy</h3>
                             <p>CEO</p>
                             
@@ -26,13 +26,13 @@ const Contact =()=>{
 
                         </div>
                     </div>
-                    <div className="box">
+                    <div className="bo">
 
                         <div className="image">
                             <img src="/baker1.jpg"/>
                         </div>
 
-                        <div className="content">
+                        <div className="conten">
                             <h3>hardly quee</h3>
                             <p>head-baker</p>
                             
@@ -46,13 +46,13 @@ const Contact =()=>{
 
                         </div>
                     </div>
-                    <div className="box">
+                    <div className="bo">
 
                         <div className="image">
                             <img src="/baker3.jpg"/>
                         </div>
 
-                        <div className="content">
+                        <div className="conten">
                             <h3>nick mark</h3>
                             <p>manager</p>
                             
@@ -146,7 +146,7 @@ const Contact =()=>{
                             Natus necessitatibus sequi vitae et fugit libero officia dolorem pariatur consequatur!</p>
 
                     </div>
-                    <div className="box">
+                    {/* <div className="box">
                         <img src="/review3.jpg"  className="user" alt=""/>
                         <h3>lacy deo</h3>
                         <div className="stars">
@@ -162,6 +162,7 @@ const Contact =()=>{
                             Natus necessitatibus sequi vitae et fugit libero officia dolorem pariatur consequatur!</p>
 
                     </div>
+                </div> */}
                 </div>
 
               </section>
