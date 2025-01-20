@@ -1,4 +1,10 @@
+import {Link,useNavigate} from "react-router-dom";
 const Home =()=>{
+let Nav = useNavigate();
+function goToSignup(){
+    Nav("/signup")
+}
+
     return(
         <>
             <h1>HOME PAGE</h1>
@@ -8,7 +14,7 @@ const Home =()=>{
             <h1><span>on door bakers</span></h1>
            <h1>super delicious and fresh baked goods</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, blanditiis corporis! Est repellat minima earum asperiores quod quam, placeat qui.</p>
-           <a href="#" className="btn">get started</a>
+           <a href="#" className="btn" onClick={goToSignup}>get started</a>
         </div>
  </section> 
       <section className="about" >
@@ -26,7 +32,7 @@ const Home =()=>{
                      ullam nobis consequuntur, assumenda mollitia fugiat.
                      <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, nulla?</span></p>
                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, reprehenderit nulla. Aspernatur, at consectetur explicabo et consequuntur debitis ipsa vitae.</p>
-                     <a href="#" className="btn">read more</a>
+                     <a href="#" className="btn" onClick={goToSignup}>read more</a>
             </div>
         </div>
       </section>
@@ -49,7 +55,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$60.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn" onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -67,7 +73,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$50.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn"onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -85,7 +91,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$50.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn"onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -103,7 +109,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$50.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn" onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -121,7 +127,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$50.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn" onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -139,7 +145,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$70.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn" onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -157,7 +163,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$60.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn" onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -175,7 +181,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$60.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn" onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -193,7 +199,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$60.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn" onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -211,7 +217,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$60.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn"onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -229,7 +235,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$60.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn"onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
             <div className="box">
@@ -247,7 +253,7 @@ const Home =()=>{
 
                     </div>
                     <span className="price">$60.99</span>
-                    <a href="#" className="btn">add to cart</a>
+                    <a href="#" className="btn" onClick={goToSignup}>add to cart</a>
                 </div>
             </div>
         </div>

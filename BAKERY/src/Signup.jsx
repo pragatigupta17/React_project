@@ -1,5 +1,10 @@
 import React, { useState } from "react";
+import {Link,useNavigate}from "react-router-dom";
 const Signup = () => {
+  const Navigate = useNavigate();
+  function gotoLogin(){
+    Navigate("/login");
+  }
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -37,7 +42,7 @@ const Signup = () => {
           <label htmlFor="password">Password:</label>
           <input type="password"id="password"name="password"value={formData.password} onChange={handleChange}/>
             </div>
-        <button type="submit"><a href="/login">Sign Up</a></button>
+        <button type="submit"onClick={gotoLogin} >Sign Up</button>
       </form>
       <p>Already have an account? <a href="/login">Log in here</a></p>
     </div>

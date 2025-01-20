@@ -75,7 +75,7 @@ const Contact =()=>{
                 <div className="box-container">
                     <div className="box">
                         <div className="image">
-                            <img src="/cakelogo"/>
+                            <img src="cakelogo.jpg"/>
                         </div>
                     <div className="content">
                         <h3>cake</h3>

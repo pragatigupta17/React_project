@@ -1,0 +1,106 @@
+{
+  "order": [
+    {
+      "Sno": 1,
+      "imageurl": "image/icecream.jpg",
+      "starts": "5",
+      "name": "icecream",
+      "quantity": 2,
+      "price": 60.99,
+      "total": 121.98,
+      "id": "a6d2"
+    },
+    {
+      "Sno": 2,
+      "imageurl": "image/mousecake.webp",
+      "starts": "5",
+      "name": "mousecake",
+      "quantity": 1,
+      "price": 59,
+      "total": 59,
+      "id": "3e8b"
+    },
+    {
+      "Sno": 3,
+      "imageurl": "image/cake2.webp",
+      "starts": "5",
+      "name": "cake",
+      "quantity": 1,
+      "price": 399,
+      "total": 399,
+      "id": "f48a"
+    },
+    {
+      "Sno": 4,
+      "imageurl": "image/chocolate.jpg",
+      "starts": "5",
+      "name": " dark chocolate",
+      "quantity": 2,
+      "price": 200,
+      "total": 400,
+      "id": "7cc5"
+    },
+    {
+      "Sno": 5,
+      "imageurl": "image/puff.webp",
+      "starts": "5",
+      "name": "puff",
+      "quantity": 3,
+      "price": 100,
+      "total": 300,
+      "id": "b425"
+    },
+    {
+      "Sno": 6,
+      "imageurl": "image/shakes.webp",
+      "starts": "5",
+      "name": "shake",
+      "quantity": 3,
+      "price": 99,
+      "total": 297,
+      "id": "286e"
+    },
+    {
+      "Sno": 7,
+      "imageurl": "image/fruitstuff.jpeg",
+      "starts": "5",
+      "name": "fruitstuff",
+      "quantity": 4,
+      "price": 150,
+      "total": 600,
+      "id": "f2b9"
+    },
+    {
+      "Sno": 8,
+      "imageurl": "image/pastry.webp",
+      "starts": "5",
+      "name": "pastry",
+      "quantity": 1,
+      "price": 120,
+      "total": 120,
+      "id": "2435"
+    },
+    {
+      "Sno": 9,
+      "imageurl": "image/cocktel2.jpeg",
+      "starts": "5",
+      "name": "drink",
+      "quantity": 2,
+      "price": 99,
+      "total": 198,
+      "id": "b74c"
+    }
+  ],
+  "form": [
+    {
+      "name": "misty",
+      "email": "misty@gmail.com",
+      "phone": 9875567890,
+      "address": "bhopal",
+      "order_date": "2025-24-01",
+      "order_time": "5-pm",
+      "status": "ghkjhvhgfjh",
+      "id": "7222"
+    }
+  ]
+}
