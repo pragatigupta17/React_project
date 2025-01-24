@@ -10,7 +10,7 @@ const Details = () => {
     setEdition({ ...edition, [name]: value });
   };
   const finalsubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     axios
       .post(`http://localhost:3000/form/${edition.id}`, edition)
       .then((r) => alert("inserted"));
@@ -27,7 +27,7 @@ const Details = () => {
       console.log(res.data);
       setData(res.data);
     });
-  }, [mydel]);
+  }, [mydel, finalsubmit]);
   return (
     <>
       <table className="tab">
@@ -59,7 +59,7 @@ const Details = () => {
                 <td>
                   <button
                     onClick={() => {
-                      setfrmvisible(true), setEdition(e);
+                      setfrmvisible(!frmvisible), setEdition(e);
                     }}
                     className="but"
                   >
@@ -119,7 +119,7 @@ const Details = () => {
               <label for="order">Address:</label>
               <textarea
                 id="order"
-                name="order"
+                name="address"
                 rows="2"
                 value={edition.address}
                 onChange={hinput}

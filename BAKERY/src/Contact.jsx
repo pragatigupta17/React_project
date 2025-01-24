@@ -1,5 +1,5 @@
 import axios from "axios";
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 const Contact = () => {
@@ -22,8 +22,9 @@ const Contact = () => {
     console.log(frminp);
     axios
       .post("http://localhost:3000/form", frminp)
-      .then(res => alert("inserted"));
+      .then((res) => alert("inserted"));
   };
+  // useEffect(() => {}, [Submitfrom]);
   return (
     <>
       <section className="order" id="order">

@@ -4,7 +4,7 @@ import {Link,useNavigate}from "react-router-dom";
 
 const Login = () => {
   const Navigate = useNavigate();
-    function gotoHome(){
+    function goToHome(){
       Navigate("/");
     }
   const [username, setUsername] = useState('');
@@ -32,7 +32,7 @@ const Login = () => {
           <label htmlFor="password">Password</label>
           <input type="password"id="password" value={password} onChange={inputlogin}/>
         </div>
-        <button type="submit" className="login-button"onClick={gotoHome}>Login</button>
+        <button type="submit" className="login-button"onClick={goToHome}>Login</button>
       </form>
     </div>
     </div>

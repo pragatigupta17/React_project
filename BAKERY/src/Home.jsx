@@ -7,7 +7,7 @@ function goToSignup(){
 
     return(
         <>
-            <h1>HOME PAGE</h1>
+            {/* <h1>HOME PAGE</h1> */}
             <section className="home" id="home">
         <div className="content">
             <h1>we bake the world a better place</h1>
